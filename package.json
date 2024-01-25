@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "name": "my-webpack-project",
+  "scripts": {
+    "build": "webpack --mode=production --env.NODE_ENV=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --env.NODE_ENV=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
